@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style/bootstrap.min.css" rel="external nofollow" rel="stylesheet" />
+    <link href="style/bootstrap-switch.min.css" rel="external nofollow" rel="stylesheet" />
+    <script src="style/jquery-3.3.1.min.js"></script>
+    <script src="style/bootstrap.min.js"></script>
+    <script src="style/bootstrap-switch.js"></script>
+</head>
+<body>
+<input type="checkbox" checked id="checkbox"/>  
+    <!-- JS -->  
+    <script type="text/javascript">
+    $(function(){
+        /* 初始化控件 */
+        $("#checkbox").bootstrapSwitch({
+            onText : "ON",      // 设置ON文本  
+            offText : "OFF",    // 设置OFF文本  
+            onColor : "success",// 设置ON文本颜色     (info/success/warning/danger/primary)  
+            offColor : "info",  // 设置OFF文本颜色        (info/success/warning/danger/primary)  
+            size : "normal",    // 设置控件大小,从小到大  (mini/small/normal/large)  
+            // 当开关状态改变时触发  
+            onSwitchChange : function(event, state) {
+                if (state == true) {
+                    alert("ON");
+                } else {
+                    alert("OFF");
+                }
+            }
+        });
+    });
+</script>  
+
+</body>
+</html>

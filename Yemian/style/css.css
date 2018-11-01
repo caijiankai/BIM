@@ -1,0 +1,66 @@
+a{
+    text-decoration:none;
+}
+
+#one{
+    margin:0 auto;
+    border:1px;
+    color:grey;
+    width:1080px;
+    height:600px;
+    background-color:gainsboro;
+}
+
+#two,#three,#four,#five,#six,#seven,#eight,#nine{
+    border:3px;
+    text-align:center;
+    line-height:90px;
+    text-align: center;
+    border-radius:10px;
+    width:100px;
+    height:100px;
+    background-color: aqua;
+    position: relative;
+}
+/*本机信息*/
+#two{
+
+    top:100px;
+    left:300px;
+}
+/*业务认证*/
+#three{
+
+    left:460px;
+}
+/*网络测速*/
+#four{
+    top:-100px;
+    left:620px;
+}
+/*网管设置*/
+#five{
+
+    top:-200px;
+    left:780px;
+}
+/*快捷方式*/
+#six{
+    top:-120px;
+    left:300px;
+}
+/*高级设置*/
+#seven{
+    top:-220px;
+    left:460px;
+}
+/*服务器信息*/
+#eight{
+    top:-320px;
+    left:620px;
+}
+/*其他设置*/
+#nine{
+    top:-420px;
+    left:780px;
+}

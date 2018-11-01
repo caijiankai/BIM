@@ -1,0 +1,55 @@
+a{
+    text-decoration:none;
+}
+
+#one{
+    margin:0 auto;
+    border:1px;
+    color:grey;
+    width:1080px;
+    height:600px;
+    background-color:gainsboro;
+}
+/*设备信息*/
+#two{
+    position:relative;
+    top:10px;
+    left:320px;
+
+}
+/*软件信息*/
+#three{
+    position:relative;
+    top:-430px;
+    left:560px;
+
+}
+ul li {line-height:60px;font-size: 18px}
+li{
+
+    line-height:20px;
+}
+#five{
+    font-size: 23px;
+    text-align: center;
+    border-color: black;
+    position:relative;
+    top:30px;
+    left:326px;
+    width:130px;
+    height:30px;
+    border-radius:10px;
+    background-color:greenyellow;
+}
+#four{
+    font-size: 23px;
+    text-align: center;
+    border-color: black;
+    position:relative;
+    top:0px;
+    left:575px;
+    width:130px;
+    height:30px;
+    border-radius:10px;
+    background-color:greenyellow;
+}
